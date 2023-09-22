@@ -16,6 +16,6 @@ public class CalculatorActivity extends AppCompatActivity {
         textView=(TextView) findViewById(R.id.textView2);
         Intent intent=getIntent();
         String str=intent.getStringExtra("message");
-        textView.setText("Hello"+str);
+        textView.setText("Hello "+str);
     }
 }
